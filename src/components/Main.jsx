@@ -18,6 +18,7 @@ import HowToBuyMini from "./HowToBuyMini";
 import MissOut from "./MissOut";
 import HeroContent from "./HeroContent";
 import Socials from "./Socials";
+import Roadmap from "./Roadmap";
 
 function Main({
   login,
@@ -97,6 +98,7 @@ function Main({
 
             <Airdrops isLargerScreen={isLargerScreen} />
             <WhyDigNFT isLargerScreen={isLargerScreen} />
+            <Roadmap isLargerScreen={isLargerScreen}/>
             <Tokenomics isLargerScreen={isLargerScreen} />
             <TokenDetails isLargerScreen={isLargerScreen} />
             <Litepaper isLargerScreen={isLargerScreen} />

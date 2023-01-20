@@ -2,6 +2,9 @@
   text-align: center; 
   min-height: 100vh;
 }
+html{
+  scroll-behavior: smooth
+}
 .head-text{
   font-family: "Russo One", sans-serif;
   font-weight: 400;
@@ -55,4 +58,25 @@
   /* bottom: 40px; */
   z-index: 99;
   opacity: 0.5;
+}
+
+/*road map css*/
+
+
+
+@media (max-width:768px) 
+{
+  .head-ssc{
+    margin-bottom: auto;
+    position: relative;
+    width: auto;
+    text-align: right;
+    margin-top: auto;
+    right: 52px;
+   
+    /* bottom: 40px; */
+    z-index: 99;
+    opacity: 0.5;
+  }
+  
 }
