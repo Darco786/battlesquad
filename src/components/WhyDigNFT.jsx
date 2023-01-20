@@ -3,7 +3,9 @@ import WhyDigNFTListItem from "./WhyDigNFTListItem";
 
 function WhyDigNFT({ isLargerScreen }) {
   return (
+    <section id="why">
     <Flex
+    
       width="full"
       direction={"column"}
       fontFamily={"russo one"}
@@ -64,6 +66,7 @@ function WhyDigNFT({ isLargerScreen }) {
         />
       </Flex>
     </Flex>
+    </section>
   );
 }
 

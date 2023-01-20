@@ -53,7 +53,7 @@ function Litepaper({ isLargerScreen }) {
           height={"10"}
           display="inline-flex"
           alignItems={"center"}
-          href="https://drive.google.com/file/d/1YCZiUIx2rgCfAH_ZFgcIEhRu_Ehgu6ot/view"
+          href="https://drive.google.com/file/d/1WuA9l52-y6bGUmSBWp-tJLD7HPSXuP_W/view?usp=sharing"
           isExternal
         >
           Read Litepaper

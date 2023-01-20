@@ -10,7 +10,9 @@ import { NFT_TOKEN_SYMBOL } from "../CONTRACT_DETAILS";
 
 function Tokenomics({ isLargerScreen }) {
   return (
+    <section id="token">
     <Flex
+    
       backgroundRepeat="no-repeat"
       backgroundImage={bgToken}
       backgroundSize={"cover"}
@@ -351,6 +353,7 @@ function Tokenomics({ isLargerScreen }) {
         />
       </Flex>
     </Flex>
+    </section>
   );
 }
 

@@ -16,6 +16,7 @@ import iconHelp from "../assets/iconhelporange.svg";
 
 function HowToBuyMini({ isLargerScreen }) {
   return (
+    <section id="how">
     <Flex
       width="full"
       direction={"column"}
@@ -211,6 +212,7 @@ function HowToBuyMini({ isLargerScreen }) {
         </Flex>
       </Flex>
     </Flex>
+    </section>
   );
 }
 

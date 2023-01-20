@@ -20,6 +20,7 @@ function Airdrops({ isLargerScreen }) {
         <Text
           as="h3"
           textTransform={"uppercase"}
+          textAlign='initial'
           fontSize={isLargerScreen ? "2.5rem" : "1.5rem"}
         >
           NFT AIRDROPS AND PERKS
@@ -31,7 +32,7 @@ function Airdrops({ isLargerScreen }) {
           className="gradient-text"
           marginTop="-.5rem"
           marginBottom={"2rem"}
-          margin={"auto"}
+         
         >
           Eligibility requirements
         </Text>

@@ -49,14 +49,14 @@ function Header({ login, currentChainIsSupported }) {
               fontWeight={"semibold"}
               fontSize=".85rem"
             >
-               <ChakraLink href="https://battleinfinity.io/" isExternal>
+               <ChakraLink href="/" isExternal>
                 Buy $BATS 
               </ChakraLink>
-              <ChakraLink href="/how-to-buy-bats/" isExternal>
-                How to Buy <ExternalLinkIcon mx="2px" />
+              <ChakraLink href="#how" >
+                How to Buy
               </ChakraLink>
-              <ChakraLink href="/how-to-buy-bats/" isExternal>
-              IBAT PREMIER LEAGUE 
+              <ChakraLink href="https://whitepaper.battleinfinity.io/welcome-to-battle-infinity/battle-infinity-platform/ibat-premier-league" isExternal>
+              IBAT PREMIER LEAGUE  <ExternalLinkIcon mx="2px" />
               </ChakraLink>
               <ChakraLink href="#why" >
               WHY $BATS 
@@ -67,7 +67,7 @@ function Header({ login, currentChainIsSupported }) {
               <ChakraLink href="#token">
               TOKENOMICS
               </ChakraLink>
-              <ChakraLink href="https://battleinfinity.io/" isExternal>
+              <ChakraLink href="https://drive.google.com/file/d/1WuA9l52-y6bGUmSBWp-tJLD7HPSXuP_W/view" isExternal>
                 Litepaper <ExternalLinkIcon mx="2px" />
               </ChakraLink>
               
