@@ -14,20 +14,23 @@ function AsSeenOn({ isLargerScreen }) {
       textTransform="uppercase"
       gap="2rem"
       margin={"auto"}
-      padding="2rem "
+      padding="2rem 5rem "
       direction={isLargerScreen ? "row" : "column"}
       background="#140421"
       width={"full"}
-      justifyContent="space-between"
+      className='seen-on'
+      
     >
       <Text
+      as='h5'
         width={"max-content"}
         minWidth="max-content"
         margin={isLargerScreen ? "initial" : "auto"}
+        className='seen-logo-outer'
       >
         As seen on
       </Text>
-      <Flex gap="1rem" flexWrap={"wrap"} justifyContent="center">
+      <Flex gap="1rem" flexWrap={"wrap"} justifyContent="center" className="seen-img">
         <Image src={s0} />
         <Image src={s1} />
         <Image src={s2} />

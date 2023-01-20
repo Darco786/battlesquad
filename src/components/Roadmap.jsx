@@ -82,7 +82,7 @@ function Roadmap() {
           </div>
           <div class="roadmap-phase-cont without-more-desc">
                 <div class="roadmap-desc">
-                  <ul>
+                  <ul style={{paddingRight:'18px'}}>
                     <li>Strategy Building</li>
                     <li>Marketing and PR</li>
                     <li>Fantasy Sports First Glimpse</li>
@@ -102,7 +102,7 @@ function Roadmap() {
                   </div>
                   <div class="roadmap-desc-more-desc" style={{display:showMore2?'block':'none'}}>
                     <div class="roadmap-desc-mbl">
-                      <ul>
+                      <ul style={{paddingRight:'18px'}}>
                         <li>Strategy Building</li>
                         <li>Marketing and PR</li>
                         <li>Fantasy Sports First Glimpse</li>

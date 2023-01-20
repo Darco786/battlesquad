@@ -123,6 +123,7 @@ function Faqs({ isLargerScreen }) {
           faqContent="Non-fungible tokens (NFTs) are digital assets that represent ownership of a unique item or piece of content. They are stored on a blockchain and cannot be exchanged for other assets on a one-to-one basis. An NFT marketplace is a platform where users can buy and sell NFTs using cryptocurrency. These marketplaces allow users to browse and purchase NFTs created and listed by other users or organizations. Examples of NFT marketplaces include OpenSea, Rarible, and SuperRare."
         />
         <FaqAccordionItem
+        isLargerScreen={isLargerScreen}
           i={2}
           currentlyOpen={currentlyOpen}
           faqTitle="How and when can I put NFT on rent?"

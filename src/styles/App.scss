@@ -54,7 +54,7 @@ html{
   text-align: right;
   margin-top: auto;
   right: 78px;
-  top: 714px;
+  top: 700px;
   /* bottom: 40px; */
   z-index: 99;
   opacity: 0.5;
@@ -62,8 +62,58 @@ html{
 
 /*road map css*/
 
+.seen-logo-outer {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 6%);
+  display: inline-block;
+  width: auto;
+  margin-right: 40px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.seen-on img{
+  margin-right: 25px;
+    margin-top: -5px;
+}
+.seen-img{
+  width: calc(100% - 90px);
+}
+.note{
+  margin-top: 10px;
+  font-size: 11px;
+    font-family: "Poppins", sans-serif;
+}
+.token-add{
+  display: inline-block;
+    padding: 0 !important;
+    width: 425px;
+    min-height: 30px;
+    max-height: 30px;
+    line-height: 30px !important;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+}
+.css-1ygl3x:focus, .css-1ygl3x[data-focus] {
+  box-shadow: unset !important;
+}
 
-
+.copy-text-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  text-decoration: underline;
+}
 @media (max-width:768px) 
 {
   .head-ssc{

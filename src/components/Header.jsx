@@ -49,15 +49,13 @@ function Header({ login, currentChainIsSupported }) {
               fontWeight={"semibold"}
               fontSize=".85rem"
             >
-               <ChakraLink href="/" isExternal>
-                Buy $BATS 
-              </ChakraLink>
+              
               <ChakraLink href="#how" >
                 How to Buy
               </ChakraLink>
-              <ChakraLink href="https://whitepaper.battleinfinity.io/welcome-to-battle-infinity/battle-infinity-platform/ibat-premier-league" isExternal>
+              {/* <ChakraLink href="https://whitepaper.battleinfinity.io/welcome-to-battle-infinity/battle-infinity-platform/ibat-premier-league" isExternal>
               IBAT PREMIER LEAGUE  <ExternalLinkIcon mx="2px" />
-              </ChakraLink>
+              </ChakraLink> */}
               <ChakraLink href="#why" >
               WHY $BATS 
               </ChakraLink>

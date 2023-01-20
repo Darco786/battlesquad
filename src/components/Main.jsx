@@ -46,7 +46,7 @@ function Main({
               alignItems="center"
               minHeight={"80vh"}
               backgroundImage={bg}
-              backgroundPosition={isLargerThan500 ? "right top" : "right"}
+              backgroundPosition={isLargerThan500 ? "right top" : "unset"}
               backgroundSize={"auto 1330"}
               backgroundRepeat={"no-repeat"}
             >

@@ -1,7 +1,20 @@
 import { Flex, Text } from "@chakra-ui/react";
+import { useState } from "react";
 import { NFT_TOKEN_DECIMALS, NFT_TOKEN_SYMBOL } from "../CONTRACT_DETAILS";
 
 function TokenDetails({ isLargerScreen }) {
+  const [text, setText] = useState(
+    "0x82A99144149373f96710Dd24be9e6C233264D616t"
+  );
+
+  async function handleCopy() {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log("Text copied to clipboard");
+    } catch (err) {
+      console.error("Failed to copy text: ", err);
+    }
+  }
   return (
     <Flex
       width="full"
@@ -44,7 +57,18 @@ function TokenDetails({ isLargerScreen }) {
           >
             Address
           </Text>
-          <Text>0x4Dd942bAa75810a3C1E876e79d5cD35E09C97A76</Text>
+          <Flex>
+            <input
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+              className="token-add"
+            />  
+            <button onClick={handleCopy} className='copy-text-btn'>Copy</button>
+          </Flex>
+
+          <p className="note">
+            Please do not send any tokens to this address as they will be lost.
+          </p>
         </Flex>
         <Flex direction={"column"}>
           <Text
@@ -53,7 +77,9 @@ function TokenDetails({ isLargerScreen }) {
           >
             Decimal
           </Text>
-          <Text>{NFT_TOKEN_DECIMALS}</Text>
+          <Text  fontFamily={`"Poppins", sans-serif`}
+          fontWeight='500'
+          fontSize='16px'>{NFT_TOKEN_DECIMALS}</Text>
         </Flex>
         <Flex direction={"column"}>
           <Text
@@ -62,7 +88,9 @@ function TokenDetails({ isLargerScreen }) {
           >
             Network
           </Text>
-          <Text>Binance Smart Chain</Text>
+          <Text  fontFamily={`"Poppins", sans-serif`}
+          fontWeight='500'
+          fontSize='16px'>Binance Smart Chain</Text>
         </Flex>
         <Flex direction={"column"}>
           <Text
@@ -71,7 +99,10 @@ function TokenDetails({ isLargerScreen }) {
           >
             Token Symbol
           </Text>
-          <Text>{NFT_TOKEN_SYMBOL}</Text>
+          <Text  fontFamily={`"Poppins", sans-serif`}
+          fontWeight='500'
+          fontSize='16px'
+          >{NFT_TOKEN_SYMBOL}</Text>
         </Flex>
       </Flex>
     </Flex>

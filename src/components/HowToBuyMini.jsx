@@ -96,12 +96,14 @@ function HowToBuyMini({ isLargerScreen }) {
       <Flex
         marginTop={"2rem"}
         textAlign="left"
+        fontFamily={`"Poppins", sans-serif`}
         className="grad-border"
         gap="1rem"
         borderRadius={"16px"}
-        padding={isLargerScreen ? "3rem" : "1.5rem"}
+        padding={isLargerScreen ? "25px" : "1.5rem"}
         direction={"column"}
         alignItems="center"
+        background={'rgba(0, 0, 0, 0.2)'}
       >
         <Flex>
           <Image src={iconHelp} />
@@ -130,8 +132,8 @@ function HowToBuyMini({ isLargerScreen }) {
             padding={".25rem .75rem"}
             position={"relative"}
             paddingLeft="1.2rem"
-            fontSize=".9rem"
-            background="#ffffff10"
+             fontSize="17px"
+            textDecorationLine='underline'
             borderRadius={"md"}
           >
             How to Setup Trust Wallet
@@ -154,8 +156,8 @@ function HowToBuyMini({ isLargerScreen }) {
             padding={".25rem .75rem"}
             position={"relative"}
             paddingLeft="1.2rem"
-            fontSize=".9rem"
-            background="#ffffff10"
+             fontSize="17px"
+            textDecorationLine='underline'
             borderRadius={"md"}
           >
             How to Install Trust Wallet
@@ -178,8 +180,8 @@ function HowToBuyMini({ isLargerScreen }) {
             padding={".25rem .75rem"}
             position={"relative"}
             paddingLeft="1.2rem"
-            fontSize=".9rem"
-            background="#ffffff10"
+             fontSize="17px"
+            textDecorationLine='underline'
             borderRadius={"md"}
           >
             How to Add $BATS to Trust Wallet
@@ -202,8 +204,8 @@ function HowToBuyMini({ isLargerScreen }) {
             padding={".25rem .75rem"}
             position={"relative"}
             paddingLeft="1.2rem"
-            fontSize=".9rem"
-            background="#ffffff10"
+             fontSize="17px"
+             textDecorationLine='underline'
             borderRadius={"md"}
           >
             Tips for Keeping Your Trust Wallet Safe
