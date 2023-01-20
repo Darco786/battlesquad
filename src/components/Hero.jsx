@@ -301,13 +301,13 @@ function Hero({
           Phase{" "}
           {!currentPhase_loading && currentPhase ? `${currentPhase}` : "..."}
         </Text>
-        <Text
+        {/* <Text
           textTransform={"uppercase"}
           fontSize={".8rem"}
           fontFamily={"Russo One"}
         >
           SOLD -{` $${raisedInCurrentPhase}`}
-        </Text>
+        </Text> */}
         <Text
           as="h2"
           textTransform={"uppercase"}
