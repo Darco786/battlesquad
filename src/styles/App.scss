@@ -68,13 +68,12 @@ html{
 {
   .head-ssc{
     margin-bottom: auto;
-    position: relative;
+    position: absolute;
     width: auto;
     text-align: right;
     margin-top: auto;
-    right: 52px;
-   
-    /* bottom: 40px; */
+    right: unset;
+  top: unset;
     z-index: 99;
     opacity: 0.5;
   }
