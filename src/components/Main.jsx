@@ -19,6 +19,9 @@ import MissOut from "./MissOut";
 import HeroContent from "./HeroContent";
 import Socials from "./Socials";
 import Roadmap from "./Roadmap";
+import HowToInstall from "./HowToInstall";
+import HowToAddBat from "./HowToAddBat";
+import HowToTips from "./HowToTips";
 
 function Main({
   login,
@@ -110,8 +113,18 @@ function Main({
               firebaseApp={firebaseApp}
             />
           </Route>
-          <Route path="/how-to-buy-bats" exact>
+          <Route path="/how-to-setup-trust-wallet" exact>
             <HowToBuy isLargerScreen={isLargerScreen} />
+          </Route>
+          <Route path="/how-to-install-trust-wallet" exact>
+            <HowToInstall isLargerScreen={isLargerScreen} />
+          </Route>
+          <Route path="/how-to-add-bats-to-trust-wallet" exact>
+            <HowToAddBat isLargerScreen={isLargerScreen} />
+          </Route>
+          <Route path="/tips-for-keeping-your-trust-wallet-safe" exact>
+            <HowToTips isLargerScreen={isLargerScreen}/>
+
           </Route>
         </Switch>
 

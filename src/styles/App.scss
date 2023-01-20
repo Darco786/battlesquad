@@ -114,6 +114,26 @@ html{
   color: #ffffff;
   text-decoration: underline;
 }
+.main-top{
+  margin-top: 2rem;
+}
+.install-ul{
+  color: #000;
+  padding-left: 3rem;
+}
+.install-ul li{
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+
+}
+.install-ul span{
+  font-weight: 400;
+}
+.add-con{
+  font-weight: 400;
+}
 @media (max-width:768px) 
 {
   .head-ssc{

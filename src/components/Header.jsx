@@ -20,12 +20,13 @@ function Header({ login, currentChainIsSupported }) {
           maxWidth={"1400px"}
           fontFamily="Russo One"
         >
-          <img
+          <ChakraLink href="/"><img
             src={logo}
             className="header__logo"
             alt="logo"
             style={{ width: "10rem" }}
-          />
+          /></ChakraLink>
+          
           {!isLargerThan500 ? (
             <Flex
               alignItems={"center"}

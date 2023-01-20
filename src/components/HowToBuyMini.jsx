@@ -127,7 +127,7 @@ function HowToBuyMini({ isLargerScreen }) {
               left: ".5rem",
               top: "35%",
             }}
-            href="/tips-for-keeping-your-trust-wallet-safe"
+            href="/how-to-setup-trust-wallet"
             isExternal
             padding={".25rem .75rem"}
             position={"relative"}
@@ -151,7 +151,7 @@ function HowToBuyMini({ isLargerScreen }) {
               left: ".5rem",
               top: "35%",
             }}
-            href="/tips-for-keeping-your-trust-wallet-safe"
+            href="/how-to-install-trust-wallet"
             isExternal
             padding={".25rem .75rem"}
             position={"relative"}
@@ -175,7 +175,7 @@ function HowToBuyMini({ isLargerScreen }) {
               left: ".5rem",
               top: "35%",
             }}
-            href="/tips-for-keeping-your-trust-wallet-safe"
+            href="/how-to-add-bats-to-trust-wallet"
             isExternal
             padding={".25rem .75rem"}
             position={"relative"}
